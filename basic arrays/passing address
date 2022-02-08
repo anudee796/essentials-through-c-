@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+void update(int a[],int n){
+    for(int i=0;i<n;i++){
+        a[i]=a[i]*2;
+    }
+}
+int main(){
+  int a[]={3,5,7,9};
+  int n=sizeof(a)/sizeof(a[0]);
+  update(a,n);
+  for(int i=0;i<n;i++){
+      cout<<a[i]<<" ";
+    }
+}
